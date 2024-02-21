@@ -43,9 +43,10 @@ num = 6  # Exemplo de entrada
 resultado_quadrado = num**2
 print("O quadrado do número é:", resultado_quadrado)
 
-########################################################
+# ===========================================================================================
 
-########################################################
+
+# ===========================================================================================
 
 
 # Números de Ponto Flutuante (float)
@@ -91,3 +92,94 @@ print(f"{celsius}°C é igual a {fahrenheit}°F")
 raio = 5.0  # Exemplo de entrada
 area = 3.14159 * raio**2
 print("A área do círculo é:", area)
+
+
+# ===========================================================================================
+
+
+# ===========================================================================================
+
+
+# Strings (str)
+
+
+# Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+
+# texto = input("Digite um texto: ")
+texto = "Olá, mundo!"  # Exemplo de entrada
+texto_maiusculas = texto.upper()
+print("Texto em maiúsculas:", texto_maiusculas)
+
+# Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+
+# nome_completo = input("Digite seu nome completo: ")
+nome_completo = "Fulano de Tal"  # Exemplo de entrada
+nome_minusculas = nome_completo.lower()
+print("Nome em minúsculas:", nome_minusculas)
+
+# Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+
+# frase = input("Digite uma frase: ")
+frase = "  Olá, mundo!  "  # Exemplo de entrada
+frase_sem_espacos = frase.strip()
+print("Frase sem espaços no início e no final:", frase_sem_espacos)
+
+# Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+
+# data = input("Digite uma data no formato dd/mm/aaaa: ")
+data = "01/01/2024"  # Exemplo de entrada
+dia, mes, ano = data.split("/")
+print("Dia:", dia)
+print("Mês:", mes)
+print("Ano:", ano)
+
+# Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+# parte1 = input("Digite a primeira parte do texto: ")
+# parte2 = input("Digite a segunda parte do texto: ")
+parte1 = "Olá,"  # Exemplo de entrada
+parte2 = " mundo!"  # Exemplo de entrada
+texto_concatenado = parte1 + parte2
+print("Texto concatenado:", texto_concatenado)
+
+
+# ===========================================================================================
+
+
+# ===========================================================================================
+
+
+# Booleanos (bool)
+# Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+
+# Exemplo de entrada
+valor1 = True
+valor2 = False
+resultado_and = valor1 and valor2
+print("Resultado do AND lógico:", resultado_and)
+
+# Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+# Exemplo de entrada
+resultado_or = valor1 or valor2
+print("Resultado do OR lógico:", resultado_or)
+
+# Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+
+# Exemplo de entrada
+resultado_not = not valor1
+print("Resultado do NOT lógico:", resultado_not)
+
+# Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+# Exemplo de entrada
+num1 = 5
+num2 = 5
+resultado_igualdade = num1 == num2
+print("Resultado da igualdade:", resultado_igualdade)
+
+# Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+# Exemplo de entrada
+resultado_diferenca = num1 != num2
+print("Resultado da diferença:", resultado_diferenca)
